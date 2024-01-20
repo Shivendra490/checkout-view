@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+.main-heading{
+    margin:4rem 15rem;
+    font-size: 2.5rem;
+    color: #4E5150;
+    font-weight: 600;
+}
+
+
+
+.form-cart-wrapper{
+    display:flex;
+    margin:3rem 15rem;
+    gap:10rem
+    /* border-top:1px solid black; */
+
+}
+
+.form{
+    flex:0.6;
+}
+
+.sub-heading{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.field-name{
+    color:#4F4F4F;
+    font-size: .75rem;
+    margin-bottom: .5rem;
+}
+
+.input-wrapper{
+    border:.1px solid #828282;
+    border-radius: 12px;
+    margin-bottom:2rem;
+    display:flex;
+    align-items: center;
+}
+
+
+.icon{
+    width:1.5rem;
+    height:1.5rem;
+    font-size:1.5rem;
+    margin-left:0.5rem;
+}
+.input{
+    color:#828282;
+    width:100%;
+    font-size: 1.5rem;
+    font-style: normal;
+    padding:1rem;
+    border:none;
+    outline:none;
+    font-weight: 600;
+}
+
+.country-postal-wrapper{
+    display: flex;
+    gap:2rem;
+}
+
+.field-wrapper{
+    flex:1;
+}
+
+/* .country-postal-wrapper .col-2{
+    flex:1;
+} */
+
+
+
+
+
+.cart-container{
+    flex:0.4;
+    background-color: aqua;
+}
+
